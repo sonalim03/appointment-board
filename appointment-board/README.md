@@ -10,7 +10,7 @@ double-booking a time slot.
 
 ## Project structure
 
-```
+```text
 appointment-board/
 ├── backend/
 │   ├── app/
@@ -21,13 +21,18 @@ appointment-board/
 │   │   ├── database.py    # Engine/session setup
 │   │   └── seed.py        # Sample appointments on first run
 │   └── requirements.txt
-└── frontend/
-    ├── src/
-    │   ├── App.jsx
-    │   ├── api.js          # fetch wrapper for the backend
-    │   ├── components/
-    │   └── index.css
-    └── package.json
+├── frontend/
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── api.js         # Fetch wrapper for the backend
+│   │   ├── components/
+│   │   └── index.css
+│   └── package.json
+├── screenshots/
+│   ├── appointment-board.png
+│   └── add-appointment.png
+├── .gitignore
+└── README.md
 ```
 
 ## Running it
